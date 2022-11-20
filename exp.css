@@ -1,0 +1,65 @@
+* {
+    text-align: center;
+  }
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1625225233840-695456021cde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-size: 1380px 650px ;
+}
+.form_border{
+    background-color: whitesmoke;
+    margin-top: 80px;
+    margin-right: 500px;
+    width:30%;
+    border: 3px solid rgb(81, 179, 212);
+    padding: 15px;
+    border-radius:5px;
+    display: inline-block;
+
+}
+#exp{
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    margin-top: -5px;
+    margin-bottom: 25px;
+    font-style:italic;
+    font-size: 55px;
+    color:rgb(6, 183, 247);
+    text-align: center;
+}
+#submit{
+    background-color: rgb(0, 145, 255);
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width:100%;
+    padding: 5px 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight:bold;
+    border-color: rgb(44, 57, 59);
+}
+#submit:hover{
+    background-color: rgb(69, 200, 214);
+}
+label{
+    font-family: sans-serif;
+    width: 100%;
+    font-weight: bold;
+    display: inline-block;
+    font-size:20px;
+}
+#amount,#description,#items{
+    margin-top: 5px;
+    width: 50%;
+    margin-bottom: 5px ;
+    padding: 5px; 
+    display: inline-block;
+}
+input::placeholder{
+font-size:15px;
+font-family: sans-serif;
+}
